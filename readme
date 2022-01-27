@@ -1,0 +1,10 @@
+A 5x5 font mean for embedding in a c header. It is available in normal mode,
+where each character is an array of 25 chars (1 or 0), or in a minimal mode,
+where each character is represented as a 32-bit number.
+
+The font itself is defined in font.txt. If you make changes to it, you can
+re-generate the headers using conv.um. The parse function is exported, so you
+can make your own translation targets.
+
+I'm happy to take contributions, whether it improves the conversion script, or
+improves some of the glyphs (some of them aren't that good).
